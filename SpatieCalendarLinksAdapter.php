@@ -11,9 +11,7 @@ class SpatieCalendarLinksAdapter
 	 * Generate calendar links based on given data
 	 * 
 	 * @param   object
-	 * {
-	 * 	from : ..., to : ..., title: ..., description: ..., timezone : ...,	address: ...,
-	 * }
+	 * { from : ..., to : ..., title: ..., description: ..., timezone : ...,	address: ..., }
 	 * @return  object      
 	 * { 'google':..., 'yahoo':..., 'webOutlook':..., 'ics':..., }
 	 */
