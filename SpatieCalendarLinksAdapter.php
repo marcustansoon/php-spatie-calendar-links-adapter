@@ -18,13 +18,13 @@ class SpatieCalendarLinksAdapter
 	public static function create(object $obj) : object
 	{
 		$from = DateTime::createFromFormat('Y-m-d H:i', $obj->from ?? '', isset($obj->timezone) ? new DateTimeZone($obj->timezone) : null);
-        $to = DateTime::createFromFormat('Y-m-d H:i', $obj->to ?? '', isset($obj->timezone) ? new DateTimeZone($obj->timezone) : null);
+        	$to = DateTime::createFromFormat('Y-m-d H:i', $obj->to ?? '', isset($obj->timezone) ? new DateTimeZone($obj->timezone) : null);
 
-        $link = Link::create($obj->title ?? '', $from, $to)
-            ->description($obj->description ?? '')
-            ->address($obj->address ?? '');
+        	$link = Link::create($obj->title ?? '', $from, $to)
+            		->description($obj->description ?? '')
+            		->address($obj->address ?? '');
 
-        // Generate a link for each calendar platform available
-        return (object)['google' => $link->google(), 'yahoo' => $link->yahoo(), 'webOutlook' => $link->webOutlook(), 'ics' => $link->ics()];
+        	// Generate a link for each calendar platform available
+		return (object)['google' => $link->google(), 'yahoo' => $link->yahoo(), 'webOutlook' => $link->webOutlook(), 'ics' => $link->ics()];
 	}
 }
