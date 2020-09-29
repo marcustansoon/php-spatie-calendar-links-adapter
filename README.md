@@ -1,0 +1,1 @@
+# php-spatie-calendar-links-adapter
