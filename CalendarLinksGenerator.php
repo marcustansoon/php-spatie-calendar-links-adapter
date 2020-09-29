@@ -5,7 +5,7 @@ use Spatie\CalendarLinks\Link;
 use DateTime;
 use DateTimeZone;
 
-class CalendarLinksGenerator
+class SpatieCalendarLinksAdapter
 {
 	/**
 	 * Perform encoding using Hashids algorithm
