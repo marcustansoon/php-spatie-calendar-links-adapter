@@ -1,10 +1,10 @@
 # php-spatie-calendar-links-adapter
 
-Requires Spatie/CalendarLinks plugin (install the package via composer. For more info, https://github.com/spatie/calendar-links)
+#### ![#28ed5d](https://via.placeholder.com/15/28ed5d/000000?text=+) Requires Spatie/CalendarLinks plugin (install the package via composer. For more info, https://github.com/spatie/calendar-links)
 ```php
 composer require spatie/calendar-links
 ```
-Example usage:-
+#### ![#28ed5d](https://via.placeholder.com/15/28ed5d/000000?text=+) Example usage:-
 ```php
 // Import script
 include 'SpatieCalendarLinksAdapter.php';
