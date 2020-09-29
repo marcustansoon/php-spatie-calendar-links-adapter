@@ -14,7 +14,8 @@ include 'SpatieCalendarLinksAdapter.php';
             (object)[
                 'from' => '2020-10-28 18:00',
                 'to' => '2020-10-28 21:40',
-                'timezone' => 'Asia/Kuala_Lumpur',
+                // List of supported timezones -> https://www.php.net/manual/en/timezones.php
+                'timezone' => 'America/Chihuahua',
                 'title' => "Elon Musk",
                 'description' => 'Elon Reeve Musk FRS is a business magnate, industrial designer, engineer, and philanthropist. He is the founder, CEO, CTO and chief designer of SpaceX; early investor, CEO and product architect of Tesla, Inc.; founder of The Boring Company; co-founder of Neuralink; and co-founder and initial co-chairman of OpenAI <br>For more information, please visit our website <a href="https://en.wikipedia.org/wiki/Elon_Musk">here</a>.',
             ]
