@@ -8,7 +8,7 @@ use DateTimeZone;
 class SpatieCalendarLinksAdapter
 {
 	/**
-	 * Perform encoding using Hashids algorithm
+	 * Generate calendar links based on given data
 	 * 
 	 * @param   object
 	 * {
@@ -26,7 +26,7 @@ class SpatieCalendarLinksAdapter
             ->description($obj->description ?? '')
             ->address($obj->address ?? '');
 
-        // Generate a link to create an event on each calendar platform available
+        // Generate a link for each calendar platform available
         return (object)['google' => $link->google(), 'yahoo' => $link->yahoo(), 'webOutlook' => $link->webOutlook(), 'ics' => $link->ics()];
 	}
 }
