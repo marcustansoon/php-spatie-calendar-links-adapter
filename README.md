@@ -1,6 +1,6 @@
 # php-spatie-calendar-links-adapter
 
-Require Spatie/CalendarLinks plugin (install the package via composer https://github.com/spatie/calendar-links)
+Requires Spatie/CalendarLinks plugin (install the package via composer https://github.com/spatie/calendar-links)
 ```php
 composer require spatie/calendar-links
 ```
