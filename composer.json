@@ -1,5 +1,5 @@
 {
-    "name": "marcustansoon/SpatieCalendarLinksAdapter",
+    "name": "marcustansoon/spatie-calendar-links-adapter",
     "description": "PHP Adapter for Spatie/CalenderLinks (Google/iCal/Yahoo Calendar)",
     "type": "library",
     "license": "MIT",
