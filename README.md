@@ -13,7 +13,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 use marcustansoon\SpatieCalendarLinksAdapter;
 
 // Create calendar links
-        $calendarLinks = CalendarLinksGenerator::create(
+        $calendarLinks = SpatieCalendarLinksAdapter::create(
             (object)[
                 'from' => '2020-10-28 18:00',
                 'to' => '2020-10-28 21:40',
