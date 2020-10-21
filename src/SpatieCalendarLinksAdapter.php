@@ -1,7 +1,7 @@
 <?php 
 
 // Requires Spatie/CalendarLinks 'https://github.com/spatie/calendar-links'
-namespace marcustansoon\SpatieCalendarLinksAdapter;
+namespace marcustansoon;
 
 use Spatie\CalendarLinks\Link;
 
