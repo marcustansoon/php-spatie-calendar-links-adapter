@@ -3,7 +3,7 @@
 
 #### ![#28ed5d](https://via.placeholder.com/15/28ed5d/000000?text=+) Requires Spatie/CalendarLinks plugin (install the package via composer. For more info, do visit https://github.com/spatie/calendar-links)
 ```php
-composer require spatie/calendar-links
+composer require marcustansoon/spatie-calendar-links-adapter
 ```
 #### ![#28ed5d](https://via.placeholder.com/15/28ed5d/000000?text=+) Example usage:-
 ```php
