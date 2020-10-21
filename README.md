@@ -8,7 +8,9 @@ composer require marcustansoon/spatie-calendar-links-adapter
 #### ![#28ed5d](https://via.placeholder.com/15/28ed5d/000000?text=+) Example usage:-
 ```php
 // Import script
-include 'SpatieCalendarLinksAdapter.php';
+require_once __DIR__ . '/vendor/autoload.php';
+
+use 'marcustansoon\SpatieCalendarLinksAdapter';
 
 // Create calendar links
         $calendarLinks = CalendarLinksGenerator::create(
