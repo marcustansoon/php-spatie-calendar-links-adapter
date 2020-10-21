@@ -1,7 +1,7 @@
 # php-spatie-calendar-links-adapter
-#### ![#28ed5d](https://via.placeholder.com/15/28ed5d/000000?text=+) Requires PHP version >= 7
+#### ![#28ed5d](https://via.placeholder.com/15/28ed5d/000000?text=+) Require PHP version >= 7
 
-#### ![#28ed5d](https://via.placeholder.com/15/28ed5d/000000?text=+) Requires Spatie/CalendarLinks plugin (install the package via composer. For more info, do visit https://github.com/spatie/calendar-links)
+#### ![#28ed5d](https://via.placeholder.com/15/28ed5d/000000?text=+) Require Spatie/CalendarLinks plugin (install the package via composer. For more info, do visit https://github.com/spatie/calendar-links)
 ```php
 composer require marcustansoon/spatie-calendar-links-adapter
 ```
