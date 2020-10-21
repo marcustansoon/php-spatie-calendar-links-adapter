@@ -10,7 +10,7 @@ composer require marcustansoon/spatie-calendar-links-adapter
 // Import script
 require_once __DIR__ . '/vendor/autoload.php';
 
-use 'marcustansoon\SpatieCalendarLinksAdapter';
+use marcustansoon\SpatieCalendarLinksAdapter;
 
 // Create calendar links
         $calendarLinks = CalendarLinksGenerator::create(
