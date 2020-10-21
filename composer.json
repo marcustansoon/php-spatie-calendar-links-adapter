@@ -11,7 +11,7 @@
     ],
     "minimum-stability": "stable",
     "autoload": {
-        "psr-4": {"marcustansoon\\SpatieCalendarLinksAdapter\\": "src/"}
+        "psr-4": {"marcustansoon\\": "src/"}
     },
     "require": {
 		"php": ">=7.0.0",
