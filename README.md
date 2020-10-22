@@ -29,6 +29,8 @@ use marcustansoon\SpatieCalendarLinksAdapter;
         echo $calendarLinks->yahoo; // https://calendar.yahoo.com/?v=60&view=d&type=20&st=202009...
         echo $calendarLinks->webOutlook; // https://outlook.live.com/calendar/deeplink/compose?path=/calendar/action/compos...
 ```
+<a href="https://phpsandbox.io/n/red-hill-aorj"><img src="https://phpsandbox.io/img/brand/badge.png" height="20" alt="PHPSandbox Notebook"></a>
+
 #### ![#28ed5d](https://via.placeholder.com/15/28ed5d/000000?text=+) Disclaimer:
 This repository is mainly for educational purpose only. Author doesn't affiliated with Spatie or any other related platforms
 <br>
